@@ -1,5 +1,14 @@
+body {
+    background-color: #202124;
+    color: white;   
+}
+
 h1.heading {
     margin: 20px;
+    padding: 30px;
+    color: #262626;
+    background-color: #79d2a6;
+    text-align: center;
 }
 
 h1 {
@@ -27,17 +36,11 @@ p, li {
     padding: 20px;
 }
 
-.container:hover {
-    border: 5px solid #8585ad;
-    border-radius: 3px;
-    transition-duration: .25s;
-}
-
 .panel {
     display: inline-block;
     width: 30%;
     height: 150px;
-    margin: auto;
+    margin: 20px;
 }
 
 .color-swatch {
@@ -45,6 +48,8 @@ p, li {
     font-family: 'Lato', sans-serif;
     font-size: 24px;
     color: white;
+    border: 1px solid #8585ad;
+    border-radius: 1px;
 }
 
 .color-swatch.background {
@@ -53,10 +58,15 @@ p, li {
 
 .color-swatch.header {
     background-color: #79d2a6;
+    color: #262626;
 }
 
 .color-swatch.border {
     background-color: #8585ad;
+}
+
+.color-swatch.header-text {
+    background-color: #262626;
 }
 
 .lato {
