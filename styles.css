@@ -69,6 +69,18 @@ p, li {
     background-color: #262626;
 }
 
+.color-swatch.link {
+    background-color: #ffa366;
+}
+
+.color-swatch.link-visited {
+    background-color: #cc5200;
+}
+
+.color-swatch.link-hover {
+    background-color: #feb82a;
+}
+
 .lato {
     font-family: 'Lato', sans-serif;
     font-size: 24px;
@@ -118,4 +130,28 @@ p, li {
 
 .libre.italic {
     font-style: italic;
+}
+
+.panel.links {
+    width: 100%;
+}
+
+.link-example {
+    color: #ffa366;
+    text-decoration: underline;
+    display: inline;
+    width: 30%;
+    margin: 15px;
+}
+
+.link-example:hover {
+    color: #feb82a;
+}
+
+.link-visited-example {
+    color: #cc5200;
+    text-decoration: underline;
+    display: inline;
+    width: 30%;
+    margin: 15px;
 }
